@@ -13,9 +13,9 @@ def main():
         st.write(" Number of views:" + str(video_object.views))
         if options == "audio":
              video_object.streams.get_audio_only().download()
-        elif options == "highest_resolution":  
+        elif options == "auta_resolução":  
              video_object.streams.get_highest_resolution().download()
-        elif options == "lowest_resolution":  
+        elif options == "baixa_resolução":  
              video_object.streams.get_lowest_resolution().download()        
     if st.button("view"):
         st.video(path)

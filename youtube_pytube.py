@@ -4,8 +4,8 @@ import base64
 from io import BytesIO
 
 def main():
-    path = st.text_input("Enter url of your video")
-    options = st.selectbox("select the type of download", ("audio","highest_resolution","lowest_resolution" ))
+    path = st.text_input("Coloque aqui a URL do video")
+    options = st.selectbox("selecione o tipo de download", ("audio","auta_resolução","baixa_resolução" ))
     
     if st.button("download"):
         video_object=YouTube(path)

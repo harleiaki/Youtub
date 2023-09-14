@@ -1,6 +1,6 @@
 import streamlit as st 
 from pytube  import YouTube
-import base256
+import base64
 from io import BytesIO
 
 def main():

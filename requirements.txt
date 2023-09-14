@@ -1,4 +1,0 @@
-streamlit==1.23.1
-pytube==15.0.0
-base256==1.0.1
-youtube3==1.2.5

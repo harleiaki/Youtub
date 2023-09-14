@@ -55,7 +55,6 @@ image==1.5.33
 image2pdf==1.0.0
 img2pdf==0.4.4
 immutables==0.17
-importlib-metadata==4.8.3
 importlib-resources==5.4.0
 imutils==0.5.4
 ipykernel==5.5.6

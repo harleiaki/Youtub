@@ -8,7 +8,7 @@ def main():
     options = st.selectbox("select the type of download", ("audio","highest_resolution","lowest_resolution" ))
     
     if st.button("download"):
-        video_object=YouTube3(path)
+        video_object=YouTube(path)
         st.write("Video Title:" +  str(video_object.title))
         st.write(" Number of views:" + str(video_object.views))
         if options == "audio":

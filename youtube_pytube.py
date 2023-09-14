@@ -1,5 +1,5 @@
 import streamlit as st 
-from pytube  import YouTube
+from pytube  import YouTube3
 import base64
 from io import BytesIO
 

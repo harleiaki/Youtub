@@ -192,3 +192,4 @@ youtube-dl==2020.12.2
 youtube-transcript-api==0.4.4
 yt-dlp==2022.4.8
 zipp==3.6.0
+download==0.3.5
